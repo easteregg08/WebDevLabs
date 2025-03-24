@@ -1,0 +1,130 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    padding: 5px;
+    margin: 5px;
+}
+
+#webname {
+    background-color: #587fa3; 
+}
+
+.nav a {
+    text-decoration: none;      
+    color: black;            
+    margin-right: 15px;        
+}
+
+form * {
+    display: block;      
+    margin: auto;       
+    text-align: center;   
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #aeadad; 
+}
+
+table {
+    border-collapse: collapse;
+    width: fit-content; 
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #000000; 
+    color: #ffffff;          
+    width: fit-content;       
+}
+
+
+/* #funList {
+    display: none;
+} */
+
+#showButton {
+    font-family: inherit; 
+    font-size: inherit;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#showButton:hover {
+    background-color: #f0f0f0;
+}
+
+#fullBio {
+    display: none; 
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.cherryblossum {
+    width: 100px; /* or whatever size you like */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  
+.lofiGirlVid {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: 0; 
+}
+
+
+.container {
+    background-color: #4e799e;
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px;
+    width: 80%;          
+    max-width: 400px;
+    color: white; 
+}
+  
+.container h2 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.container button {
+    background-color: #b1b9de;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.container button:hover {
+    background-color: #00796b;
+}
+  
+.mainLayout {
+    display: flex;
+    justify-content: center;   
+    flex-wrap: wrap; 
+    gap: 20px;                 
+    padding: 20px;
+  }
+  
